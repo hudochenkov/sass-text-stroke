@@ -4,7 +4,7 @@
   "description": "Text stroke polyfill for Sass.",
   "main": "_text-stroke.scss",
   "directories": {
-   "example": "example"
+    "example": "example"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
