@@ -1,0 +1,35 @@
+{
+  "name": "sass-text-stroke",
+  "version": "1.0.0",
+  "description": "Text stroke polyfill for Sass.",
+  "main": "_text-stroke.scss",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hudochenkov/sass-text-stroke.git"
+  },
+  "keywords": [
+    "eyeglass-module",
+    "sass",
+    "text",
+    "stroke",
+    "outline",
+    "shadow"
+  ],
+  "eyeglass": {
+    "sassDir": "./",
+    "needs": "*",
+    "exports": false
+  },
+  "author": "Aleks Hudochenkov <aleks@hudochenkov.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hudochenkov/sass-text-stroke/issues"
+  },
+  "homepage": "https://github.com/hudochenkov/sass-text-stroke#readme"
+}
