@@ -1,6 +1,6 @@
 {
   "name": "sass-text-stroke",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Text stroke polyfill for Sass.",
   "main": "_text-stroke.scss",
   "directories": {
