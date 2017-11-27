@@ -14,6 +14,12 @@ Text stroke polyfill for Sass. You can see why it's better than solutions presen
 
 ## Usage
 
+````
+$ yarn add --dev sass-text-stroke
+# or for npm
+$ npm install --save-dev sass-text-stroke
+````
+
 ```scss
 @import "text-stroke";
 
