@@ -21,7 +21,12 @@ $ npm install --save-dev sass-text-stroke
 ````
 
 ```scss
+// For eyeglass import:
 @import "text-stroke";
+
+// ...or for webpack import:
+@import "~sass-text-stroke/_text-stroke";
+
 
 $size: 5;
 $color: #bada55;
