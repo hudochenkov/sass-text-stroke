@@ -1,6 +1,6 @@
 # Text stroke for Sass
 
-[Status of browsr support for native CSS text-stroke property.](https://caniuse.com/#feat=text-stroke)
+[Status of browser support for native CSS text-stroke property.](https://caniuse.com/#feat=text-stroke)
 
 Text stroke polyfill for Sass. You can see why it's better than solutions presented earlier.
 
