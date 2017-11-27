@@ -1,5 +1,7 @@
 # Text stroke for Sass
 
+[Status of browsr support for native CSS text-stroke property.](https://caniuse.com/#feat=text-stroke)
+
 Text stroke polyfill for Sass. You can see why it's better than solutions presented earlier.
 
 ![Comparison screenshot](https://rawgit.com/hudochenkov/sass-text-stroke/master/example.png)
