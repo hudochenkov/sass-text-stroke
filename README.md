@@ -12,6 +12,12 @@ Text stroke polyfill for Sass. You can see why it's better than solutions presen
 
 [CodePen with explanation how it work](http://codepen.io/hudochenkov/pen/BNpxMr?editors=110). Instead of text-shadow for all pixels, function returns only needed text-shadows.
 
+
+## Tip
+This polyfill applies the stroke to the _outside_ of the text compared to native `-webkit-text-stroke` which applies it to the _inside_,
+so this polyfill may still be interesting for you even after `-webkit-text-stroke` has become supported by all browsers.
+
+
 ## Usage
 
 ````
