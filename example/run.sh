@@ -1,2 +1,2 @@
 #!/bin/bash
-sass example.scss:example.css --sourcemap=none --style=expanded
+sass example.scss:example.css --no-source-map --style=expanded
