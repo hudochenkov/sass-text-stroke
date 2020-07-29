@@ -10,13 +10,13 @@
 
 			@if $k > 0 {
 				$x: $k - 0.5;
-			} @elseif $k < 0 {
+			} @else if $k < 0 {
 				$x: $k + 0.5;
 			}
 
 			@if $i > 0 {
 				$y: $i - 0.5;
-			} @elseif $i < 0 {
+			} @else if $i < 0 {
 				$y: $i + 0.5;
 			}
 
