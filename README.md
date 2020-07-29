@@ -1,6 +1,6 @@
 # Text stroke for Sass
 
-https://img.shields.io/npm/v/sass-text-stroke?style=flat-square
+![npm package](https://img.shields.io/npm/v/sass-text-stroke?style=flat-square)
 
 [Status of browser support for native CSS text-stroke property.](https://caniuse.com/#feat=text-stroke)
 
