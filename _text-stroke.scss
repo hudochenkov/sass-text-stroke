@@ -1,9 +1,15 @@
 @function text-stroke($size: 2, $color: #fff, $correction: 0) {
+    $size-rounded: round($size);
+    $size-rest:    $size-rounded - $size;
+    
 	$radius: $size - $correction;
 	$stroke: ();
 
-	@for $i from -$size through $size {
-		@for $k from -$size through $size {
+	@for $i from -$size-rounded through $size-rounded {
+	    $i: $i + $size-rest;
+	    
+		@for $k from -$size-rounded through $size-rounded {
+		    $k: $k + $size-rest;
 
 			$x: $k;
 			$y: $i;
