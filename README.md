@@ -51,6 +51,8 @@ span {
 }
 ```
 
+Tip: You can use [`currentColor`](https://css-tricks.com/currentcolor/) as `$color` to let the outline automatically have the same color as the `color` property!
+
 ## Options
 
 #### size
